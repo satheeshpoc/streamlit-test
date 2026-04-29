@@ -7,10 +7,7 @@ from openai import AzureOpenAI
 # =========================================================
 # 🔐 AZURE OPENAI CONFIG
 # =========================================================
-AZURE_OPENAI_API_KEY = os.getenv(
-    "AZURE_OPENAI_API_KEY",
-    "Y9CVH88nOfJV4ZwbiCKeHpgWoAL1TxywFZ5gY0DqPB6fBnOBgWOl8JQQJ99BCAC77bzfXJ3w3AAABACOGLB3CRE"
-)
+AZURE_OPENAI_API_KEY = st.secrets["AZURE_OPENAI_API_KEY"]
 AZURE_OPENAI_ENDPOINT = os.getenv(
     "ENDPOINT_URL",
     "https://oai-merckcto-genaidemo.openai.azure.com/"

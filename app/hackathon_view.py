@@ -30,7 +30,7 @@ st.set_page_config(
     layout="wide"
 )
 
-EXCEL_FILE = "Vibe_coding.xlsx"
+EXCEL_FILE = "Vibe_codding.xlsx"
 
 # =========================================================
 # LOAD DATA

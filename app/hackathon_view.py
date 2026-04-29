@@ -30,7 +30,7 @@ st.set_page_config(
     layout="wide"
 )
 
-EXCEL_FILE = "Vibe Coding 2026 - Merck and Organon - Ideathon Nomination_20Apr2026 (2).xlsx"
+EXCEL_FILE = "Vibe_coding.xlsx"
 
 # =========================================================
 # LOAD DATA

@@ -30,7 +30,8 @@ st.set_page_config(
     layout="wide"
 )
 
-EXCEL_FILE = "Vibe_codding.xlsx"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+EXCEL_FILE = os.path.join(BASE_DIR, "Vibe_codding.xlsx")
 
 # =========================================================
 # LOAD DATA

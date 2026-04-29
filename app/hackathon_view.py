@@ -8,10 +8,7 @@ from openai import AzureOpenAI
 # 🔐 AZURE OPENAI CONFIG
 # =========================================================
 AZURE_OPENAI_API_KEY = os.environ["AZURE_OPENAI_API_KEY"]
-AZURE_OPENAI_ENDPOINT = os.getenv(
-    "ENDPOINT_URL",
-    "https://oai-merckcto-genaidemo.openai.azure.com/"
-)
+AZURE_OPENAI_ENDPOINT = os.environ["AZURE_OPENAI_ENDPOINT"]
 
 MODEL = "merckcto-genaidemo-gpt-4"
 API_VERSION = "2024-05-01-preview"
